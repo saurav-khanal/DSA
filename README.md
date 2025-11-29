@@ -8,12 +8,4 @@ LeetCode is an online platform for practicing coding problems focused on data st
  
 ## Languages Used:
 - Python
-- C++
-
-
- 
-# Progress
-- 🟢 Easy: 2 / 896  
-- 🟡 Medium: 0 / 1914  
-- 🔴 Hard: 0 / 867  
-- ✅ Total Solved: 2 / 3677
+  
