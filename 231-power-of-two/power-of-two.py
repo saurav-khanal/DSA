@@ -1,10 +1,13 @@
-import math
 class Solution(object):
     def isPowerOfTwo(self, n):
-        if 2**31 -1 < n or n <= 0:
+        if n<=0 or n > 2**31-1:
             return False
-        x= math.log(n)/math.log(2)
-        if abs(x - round(x)) < 1e-10:
-            return True
-        else:
-            return False
+
+        while n>1:
+            if n%2==0:
+                n=n//2
+            else:
+                return False
+        return True
+
+        
